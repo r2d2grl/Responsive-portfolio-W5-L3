@@ -55,33 +55,33 @@ p {
   line-height: 2;
 }
 
+.content h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.content h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
 .content h3 {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1.5;
 }
 
 .content p {
   font-size: 14px;
 }
 
-.content-container {
-  padding: 150px 20px;
-}
-
-.content-container-content {
+.content {
   margin: 30px;
 }
 
-.content-container h1 {
-  font-size: 64px;
-  line-height: 1;
-}
-
-.content-container h2 {
-  font-family: var(--default-font-family);
-  font-size: 18px;
+.content-container {
+  padding: 150px 20px;
 }
 
 .btn-branding {
